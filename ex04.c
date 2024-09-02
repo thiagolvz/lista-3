@@ -10,7 +10,7 @@ int main() {
     scanf("%f", &n2);
 
     do
-    {
+    {   printf("VALOR INVALIDO!\n");
         printf("Digite um novo valor:\n");
         scanf("%f", &n2);
     } while (n2 == 0);

@@ -9,12 +9,12 @@ int main() {
     printf("Digite o segundo valor:\n");
     scanf("%f", &n2);
 
-    do
+    while (n2 == 0)
     {
+        printf("VALOR INVALIDO!\n");
         printf("Digite um novo valor:\n");
         scanf("%f", &n2);
-    } while (n2 == 0);
-    
+    }
 
     r = n1 / n2;
 

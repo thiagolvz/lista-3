@@ -11,7 +11,7 @@ int main() {
 
     while (n2 == 0)
     {
-        printf("Numero invalido. Digite um novo valor:\n");
+        printf("Digite um novo valor:\n");
         scanf("%f", &n2);
     }
 
